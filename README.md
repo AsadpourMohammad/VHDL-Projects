@@ -28,7 +28,7 @@
     ghdl -r file_tb
 ```
 
-### View
+### Run with generating vcd file for GTKWave
 
 ```bash
     ghdl -r file_tb --vcd=file.vcd
