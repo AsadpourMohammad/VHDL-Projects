@@ -5,7 +5,6 @@ ENTITY sr_latch_tb IS
 END sr_latch_tb;
 
 ARCHITECTURE test OF sr_latch_tb IS
-
     COMPONENT sr_latch
         PORT (
             s, r, clk, clr, pr : IN STD_LOGIC;
@@ -16,9 +15,7 @@ ARCHITECTURE test OF sr_latch_tb IS
     SIGNAL s, r, clr, pr, q, qbar : STD_LOGIC;
     SIGNAL clk : STD_LOGIC := '0';
     SIGNAL finished : STD_LOGIC := '0';
-
 BEGIN
-
     uut : sr_latch PORT MAP(
         s => s,
         r => r,
@@ -29,11 +26,11 @@ BEGIN
         qbar => qbar
     );
 
-    clk <= NOT clk AFTER 5 ns WHEN finished /= '1' ELSE
-        '0';
+    clk <= NOT clk AFTER 5 ns WHEN finished /= '1' ELSE '0';
 
     PROCESS
     BEGIN
+
         s <= '0';
         r <= '0';
         clr <= '0';
@@ -90,5 +87,4 @@ BEGIN
         WAIT;
 
     END PROCESS;
-
-END test;
+END ARCHITECTURE;
