@@ -1,5 +1,46 @@
 # VHDL
 
+## Description
+
+This repository contains VHDL modules and their test benches for learning purposes.
+
+## Modules
+
+<table>
+  <tr>
+    <td>
+      <h3>Adder</h3>
+      <ul>
+        <li><a href="./ADDER/HA">Half Adder</a></li>
+        <li><a href="./ADDER/FA">Full Adder</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <h3>Multiplexer</h3>
+      <ul>
+        <li><a href="./MUX/2x1">2-to-1 MUX</a></li>
+        <li><a href="./MUX/4x1">4-to-1 MUX</a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <h3>Latch</h3>
+      <ul>
+       <li><a href="./LATCH/SR">SR Latch</a></li>
+     </ul>
+   </td>
+ </tr>
+</table>
+
 ## Guide
 
 All modules and their test benches can be compiled and run with the Makefile.
