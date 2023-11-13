@@ -6,14 +6,14 @@ This repository contains VHDL modules and their test benches for learning purpos
 
 ## Modules
 
-- ADDER:
+- Adder:
   - [Half Adder](./ADDER/HA)
 
-- MUX:
+- Multiplexer:
   - [2-to-1 MUX](./MUX/2x1/)
   - [4-to-1 MUX](./MUX/4x1/)
 
-- LATCH:
+- Latch:
   - [SR Latch](./LATCH/SR/)
 
 ## Requirements
