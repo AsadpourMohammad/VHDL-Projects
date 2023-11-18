@@ -12,6 +12,6 @@ all:
 
 	$(GHDL) -e $(FLAGS) $(MODULE)_tb
 
-	$(GHDL) -r $(FLAGS) $(MODULE)_tb --vcd=$(MODULE).vcd --stop-time=1us
+	$(GHDL) -r $(FLAGS) $(MODULE)_tb --wave=$(MODULE).ghw --stop-time=1us
 
-	$(GTKWAVE) $(MODULE).vcd
+	$(GTKWAVE) $(MODULE).ghw
