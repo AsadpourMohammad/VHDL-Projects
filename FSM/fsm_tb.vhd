@@ -43,7 +43,14 @@ BEGIN
 
     stim_proc : PROCESS
     BEGIN
-        -- hold reset state for 100 ns.
+        din <= '1';
+        WAIT FOR clk_period;
+        din <= '0';
+        WAIT FOR clk_period;
+        din <= '1';
+        WAIT FOR clk_period;
+        din <= '0';
+        WAIT FOR clk_period;
         din <= '0';
         WAIT FOR clk_period;
         din <= '0';
@@ -58,8 +65,6 @@ BEGIN
         WAIT FOR clk_period;
         din <= '1';
         WAIT FOR clk_period;
-        din <= '0';
-        WAIT FOR clk_period;
         din <= '1';
         WAIT FOR clk_period;
         din <= '0';
@@ -67,10 +72,6 @@ BEGIN
         din <= '0';
         WAIT FOR clk_period;
         din <= '1';
-        WAIT FOR clk_period;
-        din <= '1';
-        WAIT FOR clk_period;
-        din <= '0';
         WAIT FOR clk_period;
         din <= '1';
         WAIT FOR clk_period;
