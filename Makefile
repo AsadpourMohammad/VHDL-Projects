@@ -25,6 +25,8 @@ run: elaborate
 wave: run
 	@echo "generating wave..."
 	@$(GTKWAVE) ${MODULE}.ghw
+	@echo "done. cleaning up..."
+	@make clean
 
 clean:
 	@echo "cleaning up..."
