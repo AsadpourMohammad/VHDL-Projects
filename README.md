@@ -15,6 +15,7 @@ These projects were tested with GHDL with mcode backend on Manjaro Linux, and us
 
 - Adder:
   - [Half Adder](./ADDER/HA)
+  - [Full Adder](./ADDER/FA)
 
 - Delayed OR:
   - [Delayed OR](./DELAYED-OR)
