@@ -8,8 +8,8 @@ ENTITY fa IS
     );
 END fa;
 
-ARCHITECTURE behavioral OF fa IS
+ARCHITECTURE structural OF fa IS
 BEGIN
     sum <= a XOR b XOR cin;
     cout <= (a AND b) OR (a AND cin) OR (b AND cin);
-END behavioral;
+END structural;
