@@ -23,7 +23,7 @@ All modules and their test benches can be compiled and run with the Makefile.
     make wave ADDRESS=module_address MODULE=module_name
 
     # Example
-    make wave ADDRESS=./ADDER/HA MODULE=ha
+    make wave ADDRESS=./ADDER/HA/ MODULE=ha
 ```
 
 The Makefile will run the following commands:
