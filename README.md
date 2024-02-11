@@ -4,33 +4,11 @@ A series of small projects for learning VHDL Language
 
 ## Description
 
-This repository contains different VHDL projects that were created for learning purposes in Computer-Aided Design Systems (CADS) Course in Noshirvani University of Technology.
+This repository contains different `VHDL` projects that were created for learning purposes in `Computer-Aided Design Systems (CADS)` Course in `Noshirvani University of Technology`.
 
 Each project contains a module and its test bench. Some projects contain different architectural implementations of the same module.
 
-These projects were tested with GHDL with mcode backend on Manjaro Linux, and used 2002 VHDL standard.
-
-## Modules
-
-- Adder:
-  - [Half Adder](./ADDER/HA)
-  - [Full Adder](./ADDER/FA)
-
-- Delayed OR:
-  - [Delayed OR](./DELAYED-OR)
-
-- Finite State Machine:
-  - [FSM](./FSM)
-
-- Latch:
-  - [SR Latch](./LATCH/SR/)
-
-- Multiplexer:
-  - [2-to-1 MUX](./MUX/2x1/)
-  - [4-to-1 MUX](./MUX/4x1/)
-
-- Self Package:
-  - [Self Package](./self-pkg)
+These projects were tested with `GHDL` with `mcode backend` on Manjaro Linux, and used `2002 VHDL standard`.
 
 ## Requirements
 
@@ -88,10 +66,32 @@ You can also run theses commands using make:
     make wave ADDRESS=module_address MODULE=module_name
 ```
 
-The `make wave` command will run all the previous commands and view the wave file with GTKWave.
+The `make wave` command will run all the previous commands and view the wave file with `GTKWave`.
 
 You can also clean all the generated files with the following command:
 
 ```bash
     make clean
 ```
+
+## Modules
+
+- Adder:
+  - [Half Adder](./ADDER/HA)
+  - [Full Adder](./ADDER/FA)
+
+- Delayed OR:
+  - [Delayed OR](./DELAYED-OR)
+
+- Finite State Machine:
+  - [FSM](./FSM)
+
+- Latch:
+  - [SR Latch](./LATCH/SR/)
+
+- Multiplexer:
+  - [2-to-1 MUX](./MUX/2x1/)
+  - [4-to-1 MUX](./MUX/4x1/)
+
+- Self Package:
+  - [Self Package](./self-pkg)
