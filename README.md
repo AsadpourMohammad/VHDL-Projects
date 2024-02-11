@@ -1,13 +1,12 @@
 # VHDL
 
-Projects for learning VHDL Language
+A series of small projects for learning VHDL Language
 
 ## Description
 
-This repository contains VHDL projects for learning purposes in Computer-Aided Design Systems (CADS) course.
+This repository contains different VHDL projects that were created for learning purposes in Computer-Aided Design Systems (CADS) Course in Noshirvani University of Technology.
 
-Each project contains a module and its test bench.
-Some projects contain different architectural implementations of the same module.
+Each project contains a module and its test bench. Some projects contain different architectural implementations of the same module.
 
 These projects were tested with GHDL with mcode backend on Manjaro Linux, and used 2002 VHDL standard.
 
